@@ -18,7 +18,7 @@ body {
     line-height: 2;
     background-image: url(computer.gif);
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: 700px;
     background-size: 600px;
     background-color: rgba(10,24,23,255);
     color: white;
@@ -47,7 +47,7 @@ body {
 .content-box {
    
     padding: 50px 0 0 50px;
-    width: 50%;
+    width: 60%;
 }
 
 .content-box .content {
