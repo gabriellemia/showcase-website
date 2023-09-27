@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.title-container {
+    margin: 50px 0 0 50px;
+}
+
+.menu-tab {
+    padding: 20px;
+    padding-left: 0;
+}
+
+.tab-button {
+    margin-right: 10px;
+}
+
+.content {
+    text-align: justify;
+}
+
+.content-box {
+    margin: 50px;
+    width: 50%;
+}
+
+.content-box .content {
+    display: none;
+}
+
+.content-box .content.active {
+    display: block;
+}
+
